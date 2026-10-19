@@ -1,0 +1,10 @@
+{
+  "name": "Pygame Development",
+  "image": "://microsoft.com",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {
+      "version": "latest"
+    }
+  },
+  "postCreateCommand": "pip install pygame-ce"
+}
